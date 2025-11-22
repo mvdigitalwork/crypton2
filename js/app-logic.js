@@ -209,7 +209,7 @@ function handleSignup() {
     if (result.status === "success") {
       localStorage.setItem("isLoggedIn", "true");
       localStorage.setItem("currentUser", username);
-      window.location.href = "./dashboard.html";
+      window.location.href = "./index.html";
     } else {
       alert(result.message);
     }
@@ -253,7 +253,7 @@ function handleLogin() {
         localStorage.setItem("depositDate", result.depositDate);
       }
 
-      window.location.href = "./dashboard.html"; // or account.html
+      window.location.href = "./index.html"; // or account.html
     } else {
       alert(result.message);
     }
