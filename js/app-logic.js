@@ -1,5 +1,5 @@
 const WEB_APP_URL =
-  "https://script.google.com/macros/s/AKfycbzWldZ0vXNdKhMRT2nzlPFqMWxtHJo-1eBex9HEcFI5xYXOMeZue6HIKWG4zV1skP0L/exec";
+  "https://script.google.com/macros/s/AKfycbxICMkrOatvuz2YDksAzQrjrF_cy8JqTT0-o0CZdf2xhVmsHNzflwsU1JhIGtgo9qSX/exec";
 
 // FAKE DATA for market chart rendering
 const FAKE_COINS = [
